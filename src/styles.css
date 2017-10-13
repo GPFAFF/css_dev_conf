@@ -1,5 +1,34 @@
 body {
   background: #7b4397;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #dc2430, #7b4397);
+  background: -webkit-linear-gradient(to left, #a29cdc, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #a29cdc, #7b4397);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 2px 1px black;
+}
+
+div {
+  perspective: 1000px;
+}
+
+.loader {
+  max-width: 100%;
+  width: 200px;
+  animation: bounce 2s ease-in-out infinite;
+  animation-fill-mode: forwards;
+	animation-direction: alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(100px, 10px, 10px);
+  }
 }
