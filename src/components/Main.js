@@ -24,8 +24,8 @@ class Main extends Component {
     const response = await fetch('https://raw.githubusercontent.com/GPFAFF/css_dev_conf/master/data.json')
     .then(res => res.json());
 
-    const filteredTalks = response.data.filter(talk => talk.icon);
-    console.log("****RESPONSE***", response);
+    const filteredTalks = response.data.filter(talk => talk);
+    console.log("****RESPONSE***", filteredTalks);
 
     this.setState({
       talks: filteredTalks,

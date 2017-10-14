@@ -15,7 +15,7 @@ class Results extends Component {
     return (
       <div className="talk-container">
         {this.props.talks.map(
-          details => <Talks key='1' details={details} />
+          details => <Talks key={details.id} details={details} />
         )}
       </div>
     )
