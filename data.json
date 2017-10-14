@@ -19,7 +19,7 @@
     {
       "id": "3",
       "name": "Carlos Filoteo",
-      "nameDisplay": "@theGPFAFF",
+      "nameDisplay": "@cfiloteo12",
       "description": "Building a CSS Pipeline",
       "slides": "https://filoxo.github.io/talk-modern-css-framework/",
       "picture": "https://pbs.twimg.com/profile_images/902764618766045184/NPyK3lWd_400x400.jpg"
@@ -51,7 +51,7 @@
     {
       "id": "7",
       "name": "Varun Vachhar",
-      "nameDisplay": "@theGPFAFF",
+      "nameDisplay": "@winkerVSbecks",
       "description": "Slaying the Webpack Dragon",
       "slides": "tiny.cc/webpack-dragon",
       "picture": "https://pbs.twimg.com/profile_images/458803930713972736/dZevbKSe_400x400.png"
@@ -67,7 +67,7 @@
     {
       "id": "9",
       "name": "Val Head",
-      "nameDisplay": "@theGPFAFF",
+      "nameDisplay": "@vlh",
       "description": "The Ins and Outs of Easing",
       "slides": "https://www.slideshare.net/valhead/the-ins-and-outs-of-easing",
       "picture": "https://pbs.twimg.com/profile_images/669650293747900416/GApkPcFY_400x400.jpg"
@@ -75,7 +75,7 @@
     {
       "id": "10",
       "name": "Brenda Storer",
-      "nameDisplay": "@theGPFAFF",
+      "nameDisplay": "@brendamarienyc",
       "description": "Using CSS Grid",
       "slides": "http://brendastorer.com/presentations/2017-10-CSSDevConf/assets/player/KeynoteDHTMLPlayer.html#0",
       "picture": "https://pbs.twimg.com/profile_images/726792344528257025/OJnua9Qs_400x400.jpg"
