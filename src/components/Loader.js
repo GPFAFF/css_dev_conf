@@ -10,7 +10,7 @@ class Loader extends Component {
   render() {
     return (
       <div className="loader">
-        <img alt="Waiting to Load" src="/img/fleur.svg"/>
+        <img alt="Waiting to Load" src="./img/fleur.svg"/>
         <h2>{this.props.message}</h2>
       </div>
     )
