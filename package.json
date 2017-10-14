@@ -4,6 +4,7 @@
   "description": "React App for CSS Dev Conf",
   "main": "index.js",
   "repository": "https://github.com/GPFAFF/css_dev_conf.git",
+  "homepage": ".",
   "author": "Greg Pfaff <greg.pfaff@razorfish.com>",
   "license": "MIT",
   "devDependencies": {

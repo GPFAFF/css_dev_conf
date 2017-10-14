@@ -5,7 +5,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1 {
+h1,
+h1 a {
   font-size: 60px;
   color: white;
   text-align: center;
@@ -17,18 +18,28 @@ div {
 }
 
 .loader {
+  text-align: center;
+}
+
+.loader h2 {
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px black;
+}
+
+.loader img {
   max-width: 100%;
   width: 200px;
-  animation: bounce 2s ease-in-out infinite;
+  animation: bounce .7s ease-in-out infinite;
   animation-fill-mode: forwards;
 	animation-direction: alternate;
 }
 
 @keyframes bounce {
   from {
-    transform: translate3d(0, 0, 0);
+    transform: translateY(0);
   }
   to {
-    transform: translate3d(100px, 10px, 10px);
+    transform: translateY(30px);
   }
 }
