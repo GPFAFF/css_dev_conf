@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Greg PFaff",
+      "nameDisplay": "@theGPFAFF",
+      "description": "Lreom FLSDJFLDSJOFUj fjslfjsdljfdsjodsjfldsjfsdfsdfds",
+    "icon": {
+      "picture": "https://pbs.twimg.com/profile_images/2799246491/8481caf6bb477f5567feb4188eacd31b_400x400.jpeg"
+    },
+    "style": {
+      "id": 59,
+      "categoryId": 5,
+      "name": "First Wave",
+      "shortName": "Amazing",
+      "description": "BEst fall of my life ahahahahhahaha"
+    }
+  }],
+  "status": "success"
+}
