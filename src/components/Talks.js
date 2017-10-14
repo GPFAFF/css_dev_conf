@@ -10,14 +10,15 @@ class Talks extends Component {
     const {
       name,
       labels,
-      id
+      id,
+      icon
     } = this.props.details;
 
     return (
       <div className="talks">
         <Link to={`/talks/${id}/${slug(name)}`}>
           <h2>{name}</h2>
-          <img src="#" alt={`Label of ${name}`} />
+          <img className="card" src={icon.picture} alt={`Label of ${name}`} />
         </Link>
       </div>
     );

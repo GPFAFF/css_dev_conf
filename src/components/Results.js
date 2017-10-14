@@ -13,7 +13,7 @@ class Results extends Component {
     }
 
     return (
-      <div className="talks">
+      <div className="talk-container">
         {this.props.talks.map(
           details => <Talks key='1' details={details} />
         )}
