@@ -48,7 +48,6 @@ class Developer extends Component {
   renderTalks = (developer) => {
     console.log(typeof developer);
     console.log(typeof developer.info);
-    debugger;
     //console.log(Object.entries(devTalks));
     // let value;
 
