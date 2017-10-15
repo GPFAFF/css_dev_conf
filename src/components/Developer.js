@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import Loader from './Loader';
 import Header from './Header';
 import Talks from './Talks'
@@ -35,14 +35,30 @@ class Developer extends Component {
   renderSlides = (developer) => {
     if (!developer.slides) return
     return (
-      <h4>
-        <Link to={`${developer.slides}`}>
-        <div className="details">
-          Check out their conference slides {developer.nameDisplay}
+      <h4 className="talk-slides">
+        <a className="slides" target="_blank" rel="nopeneer noreferrer" href={developer.slides}>
+          <div className="details">
+            Check out their conference slides <span className="slides">{developer.nameDisplay}</span>
           </div>
-        </Link>
+        </a>
       </h4>
     );
+  }
+
+  renderTalks = (developer) => {
+    console.log(typeof developer);
+    console.log(typeof developer.info);
+    debugger;
+    //console.log(Object.entries(devTalks));
+    // let value;
+
+    // const talkingPoints = new Set(developer.info);
+    // for (let points of talkingPoints) {
+    //   value = points;
+    // }
+    // return (
+    //   <p className="talking_point">{value}</p>
+    // );
   }
 
   render() {
@@ -60,12 +76,13 @@ class Developer extends Component {
         <div className="developer">
           <h2>{developer.title}</h2>
           <img className="card_image" src={developer.picture} alt={`Label of ${developer.nameDisplay}`} />
-          <h3>
-            <Link to={`${developer.twitter}`}>
-              Follow this awesome developer! {developer.nameDisplay}
-            </Link>
+          <h3 className="social">
+            <a className="twitter" target="_blank" rel="nopeneer noreferrer" href={developer.twitter}>
+              Follow this awesome developer! <span className="twitter">{developer.nameDisplay}</span>
+            </a>
           </h3>
           {this.renderSlides(developer)}
+          {this.renderTalks(developer)}
         </div>
       </div>
     )

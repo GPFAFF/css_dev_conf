@@ -1,23 +1,18 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Main from './components/Main';
-import Developer from './components/Developer';
 import { BrowserRouter, Route } from 'react-router-dom';
+
+import Routes from './components/Routes';
 
 /* Import Styles */
 import './styles.css';
 
-const Root = () => {
-  const baseUrl = process.env.PUBLIC_URL;
-  return (
-    <BrowserRouter>
-      <div>
-        <Route exact path={`${baseUrl}/`} component={Main} />
-        <Route path="/talks/:id/:developer_name" component={Developer} />
-      </div>
-    </BrowserRouter>
-
-  );
+class Root extends React.Component {
+  render() {
+    return (
+      <Routes />
+    )
+  }
 }
 
 render(<Root />, document.querySelector("#app"));
