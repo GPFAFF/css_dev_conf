@@ -57,6 +57,7 @@ class Developer extends Component {
         <Header message="CSS DEV CONF 2017!" />
         <div className="developer">
           <h2>{developer.title}</h2>
+          <img className="card_image" src={picture} alt={`Label of ${nameDisplay}`} />
           <h3>
             <Link to={`${developer.twitter}`}>
               {developer.nameDisplay}
