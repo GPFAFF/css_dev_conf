@@ -12,6 +12,13 @@ class Main extends Component {
     }
   }
 
+  componentWillMount() {
+    console.log("MOUNT UP!!");
+    const params = this.props.match.params || {};
+    const searchTerm = params.searchTerm || undefined;
+    this.loadTalks(searchTerm);
+  }
+
   componentDidMount() {
     this.loadTalks();
   }
@@ -25,7 +32,6 @@ class Main extends Component {
     .then(res => res.json());
 
     const filteredTalks = response.data.filter(talk => talk);
-    console.log("****RESPONSE***", filteredTalks);
 
     this.setState({
       talks: filteredTalks,

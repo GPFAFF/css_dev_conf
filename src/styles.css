@@ -13,6 +13,10 @@ h1 a {
   text-shadow: 3px 2px 1px black;
 }
 
+a {
+  text-decoration: none;
+}
+
 .loader {
   text-align: center;
 }
@@ -39,14 +43,26 @@ h1 a {
   text-align: center;
 }
 
-.talks {
+.card_title {
+  font-size: 30px;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+}
+.cards {
   padding: 20px 0;
 }
 
-.card {
+.card_image {
   border-radius: 50%;
   max-width: 100%;
   height: 150px;
+  border: 2px solid black;
+  transition: .2s ease-in;
+}
+
+.card_image:hover {
+  transform: scale(1.1);
+  transition: .2s ease-out;
 }
 
 @keyframes bounce {

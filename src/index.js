@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import Main from './components/Main';
+import Developer from './components/Developer';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 /* Import Styles */
@@ -12,7 +13,7 @@ const Root = () => {
     <BrowserRouter>
       <div>
         <Route exact path={`${baseUrl}/`} component={Main} />
-        <Route path="/search/" component={Main} />
+        <Route path="/talks/:id/:name" component={Developer} />
       </div>
     </BrowserRouter>
 

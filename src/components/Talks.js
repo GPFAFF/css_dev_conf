@@ -15,10 +15,10 @@ class Talks extends Component {
     } = this.props.details;
 
     return (
-      <div className="talks">
+      <div className="cards">
         <Link to={`/talks/${id}/${slug(name)}`}>
-          <h2>{name}</h2>
-          <img className="card" src={picture} alt={`Label of ${name}`} />
+          <h2 className="card_title">{name}</h2>
+          <img className="card_image" src={picture} alt={`Label of ${name}`} />
         </Link>
       </div>
     );
