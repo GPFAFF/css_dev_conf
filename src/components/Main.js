@@ -28,7 +28,7 @@ class Main extends Component {
       loading: true
     })
 
-    const response = await fetch('https://raw.githubusercontent.com/GPFAFF/css_dev_conf/master/data.json')
+    const response = await fetch('https://raw.githubusercontent.com/GPFAFF/css_dev_conf/master/data/data.json')
     .then(res => res.json());
 
     const filteredTalks = response.data.filter(talk => talk);

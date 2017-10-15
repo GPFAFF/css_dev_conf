@@ -25,7 +25,7 @@ class Developer extends Component {
 
     this.setState({ loading: true });
 
-    fetch(`https://raw.githubusercontent.com/GPFAFF/css_dev_conf/master/${developer_name}.json`)
+    fetch(`https://raw.githubusercontent.com/GPFAFF/css_dev_conf/master/data/${developer_name}.json`)
         .then(data => data.json())
         .then(res => {
           this.setState({ developer: res.data, loading: false });
@@ -57,7 +57,7 @@ class Developer extends Component {
         <Header message="CSS DEV CONF 2017!" />
         <div className="developer">
           <h2>{developer.title}</h2>
-          <img className="card_image" src={picture} alt={`Label of ${nameDisplay}`} />
+          <img className="card_image" src={developer.picture} alt={`Label of ${developer.nameDisplay}`} />
           <h3>
             <Link to={`${developer.twitter}`}>
               {developer.nameDisplay}
