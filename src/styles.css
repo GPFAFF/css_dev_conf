@@ -106,4 +106,8 @@ a {
   .talk-container {
     padding: 0;
   }
+
+  .twitter, .slides, .details {
+    font-size: 18px;
+  }
 }
