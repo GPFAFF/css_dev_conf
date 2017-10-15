@@ -8,10 +8,12 @@ import Developer from './Developer';
 class Routes extends Component {
 
   render() {
+    const baseUrl = process.env.PUBLIC_URL;
+
     return (
       <BrowserRouter>
           <div>
-            <Route exact path='/' component={Main} />
+            <Route exact path={`${baseUrl}/`} component={Main} />
             {/* <CSSTransitionGroup
               transitionName="fade"
               transitionEnterTimeout={300}
