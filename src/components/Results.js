@@ -4,6 +4,11 @@ import Talks from './Talks';
 import Loader from './Loader';
 
 class Results extends Component {
+  static PropTypes = {
+    loading: PropTypes.bool.isRequired,
+    talks: PropTypes.array.isRequired
+  }
+
   render() {
 
     if (this.props.loading) {
