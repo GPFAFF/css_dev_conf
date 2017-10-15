@@ -1,5 +1,5 @@
 {
-  "data": [
+  "data":
     {
       "nameDisplay": "@wesbos",
       "title": "What's new in JavaScript",
@@ -41,5 +41,4 @@
         }
       ]
     }
-  ]
 }
