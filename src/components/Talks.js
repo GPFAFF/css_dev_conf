@@ -5,11 +5,16 @@ import slug from 'slugify';
 
 class Talks extends Component {
 
+  static PropTypes = {
+    name: PropTypes.string,
+    id: PropTypes.string,
+    picture: PropTypes.string
+  }
+
   render() {
 
     const {
       name,
-      labels,
       id,
       picture
     } = this.props.details;

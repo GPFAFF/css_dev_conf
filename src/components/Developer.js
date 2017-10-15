@@ -1,11 +1,16 @@
 import React, {Component} from 'react';
-import { Link, Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Loader from './Loader';
 import Header from './Header';
-import Talks from './Talks'
 import PropTypes from 'prop-types';
 
 class Developer extends Component {
+
+  static propTypes = {
+    params: PropTypes.object,
+    developer: PropTypes.object
+
+  }
 
   constructor() {
     super()
@@ -32,13 +37,24 @@ class Developer extends Component {
         });
   }
 
+  renderBackButton = () => {
+    const baseUrl = process.env.PUBLIC_URL;
+    return (
+      <div>
+        <button className="back">
+          <Link to={`${baseUrl}/`}>Go Back!</Link>
+        </button>
+      </div>
+    )
+  }
+
   renderSlides = (developer) => {
     if (!developer.slides) return
     return (
       <h4 className="talk-slides">
         <a className="slides" target="_blank" rel="nopeneer noreferrer" href={developer.slides}>
           <div className="details">
-            Check out their conference slides <span className="slides">{developer.nameDisplay}</span>
+            Check out their conference slides <span className="slides">{developer.title}</span>
           </div>
         </a>
       </h4>
@@ -46,8 +62,13 @@ class Developer extends Component {
   }
 
   renderTalks = (developer) => {
-    console.log(typeof developer);
-    console.log(typeof developer.info);
+    console.log(this.props);
+    // const talkingPoints = developer.info;
+    // return (
+    //   talkingPoints.forEach(value => <p className="talking-point">{value}</p>)
+    // )
+
+
     //console.log(Object.entries(devTalks));
     // let value;
 
@@ -73,15 +94,18 @@ class Developer extends Component {
       <div>
         <Header message="CSS DEV CONF 2017!" />
         <div className="developer">
-          <h2>{developer.title}</h2>
+          {this.renderBackButton()}
           <img className="card_image" src={developer.picture} alt={`Label of ${developer.nameDisplay}`} />
+          {this.renderSlides(developer)}
           <h3 className="social">
             <a className="twitter" target="_blank" rel="nopeneer noreferrer" href={developer.twitter}>
               Follow this awesome developer! <span className="twitter">{developer.nameDisplay}</span>
             </a>
           </h3>
-          {this.renderSlides(developer)}
-          {this.renderTalks(developer)}
+          <h4>
+            Conference Talk
+            {this.renderTalks(developer)}
+          </h4>
         </div>
       </div>
     )

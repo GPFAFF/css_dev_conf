@@ -44,6 +44,30 @@ a {
   padding: 20px;
 }
 
+.back {
+  padding: 20px;
+  border: 0;
+  height: auto;
+  width: 200px;
+  background-color: #f4c70a;
+  font-size: 18px;
+  text-transform: uppercase;
+  transform: scale(1);
+  transition: .1s ease-in;
+  margin-bottom: 50px;
+}
+
+.back:hover {
+  background-color: #e0b606;
+  transform: scale(1.1);
+  transition: .1s ease-out;
+  cursor: pointer;
+}
+
+.back a {
+  color: black;
+  text-shadow: none;
+}
 .card_title {
   font-size: 30px;
 }
