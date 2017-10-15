@@ -19,7 +19,7 @@ class Developer extends Component {
     this.loadTalks(this.props.match.params.developer_name);
   }
 
-  loadTalks = (id) => {
+  loadTalks = (developer_name) => {
     console.log(`Loading developer ${developer_name}`)
 
     this.setState({ loading: true });
@@ -39,7 +39,7 @@ class Developer extends Component {
     }
 
     const { developer } = this.state;
-    console.log(talks);
+    console.log(developer);
 
     return (
       <div>
