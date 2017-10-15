@@ -13,7 +13,7 @@ const Root = () => {
     <BrowserRouter>
       <div>
         <Route exact path={`${baseUrl}/`} component={Main} />
-        <Route path="/talks/:id/:name" component={Developer} />
+        <Route path="/talks/:id/:developer_name" component={Developer} />
       </div>
     </BrowserRouter>
 

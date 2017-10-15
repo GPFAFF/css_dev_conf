@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 import Loader from './Loader';
 import Header from './Header';
 import Talks from './Talks'
@@ -31,6 +32,17 @@ class Developer extends Component {
         });
   }
 
+  renderSlides = (developer) => {
+    if (!developer.slides) return
+    return (
+      <h4>
+        <Link to={`${developer.slides}`}>
+          {developer.nameDisplay} slides
+        </Link>
+      </h4>
+    );
+  }
+
   render() {
     if (this.state.loading) {
       return (
@@ -39,20 +51,18 @@ class Developer extends Component {
     }
 
     const { developer } = this.state;
-    console.log(developer);
 
     return (
       <div>
         <Header message="CSS DEV CONF 2017!" />
         <div className="developer">
-          {/* <h2>{talks}</h2> */}
-          {/* <h3>{talks}</h3>
-          <img src={talks} /> */}
-
-          {/* <div className="beer-info">
-            {this.renderGlass(beer)}
-            {this.renderAbv(beer)}
-          </div> */}
+          <h2>{developer.title}</h2>
+          <h3>
+            <Link to={`${developer.twitter}`}>
+              {developer.nameDisplay}
+            </Link>
+          </h3>
+          {this.renderSlides(developer)}
         </div>
       </div>
     )

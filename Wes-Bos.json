@@ -4,10 +4,13 @@
       "nameDisplay": "@wesbos"
     },
     {
-      "description": "What's new in JavaScript"
+      "title": "What's new in JavaScript"
     },
     {
       "slides": "https://wesbos.github.io/future-js/#1"
+    },
+    {
+      "twitter": "https://twitter.com/wesbos"
     }
   ]
 }
