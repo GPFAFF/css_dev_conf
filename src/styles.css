@@ -31,6 +31,12 @@ a {
 	animation-direction: alternate;
 }
 
+.message {
+  font-size: 18px;
+  width: 50%;
+  margin: 0 auto;
+}
+
 .talk-container {
   display: grid;
   grid-gap: 40px;

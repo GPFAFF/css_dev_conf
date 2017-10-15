@@ -43,6 +43,7 @@ class Main extends Component {
     return (
       <main>
         <Header message="CSS DEV CONF 2017" />
+        <p className="message"> A collection of the talks attended at the conference. All of these developers were remarkable and so talented.  Click on their name to check out their slides from the conference and make sure to give them a follow 👍 👍🏽 👍🏻 👍🏼 👍🏾 👍🏿 </p>
         <Results talks={this.state.talks} loading={this.state.loading} />
       </main>
     )

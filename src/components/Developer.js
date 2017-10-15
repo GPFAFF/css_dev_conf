@@ -37,7 +37,9 @@ class Developer extends Component {
     return (
       <h4>
         <Link to={`${developer.slides}`}>
-          {developer.nameDisplay} slides
+        <div className="details">
+          Check out their conference slides {developer.nameDisplay}
+          </div>
         </Link>
       </h4>
     );
@@ -60,7 +62,7 @@ class Developer extends Component {
           <img className="card_image" src={developer.picture} alt={`Label of ${developer.nameDisplay}`} />
           <h3>
             <Link to={`${developer.twitter}`}>
-              {developer.nameDisplay}
+              Follow this awesome developer! {developer.nameDisplay}
             </Link>
           </h3>
           {this.renderSlides(developer)}
