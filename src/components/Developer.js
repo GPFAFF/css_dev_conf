@@ -54,7 +54,7 @@ class Developer extends Component {
       <h4 className="talk-slides">
         <a className="slides" target="_blank" rel="nopeneer noreferrer" href={developer.slides}>
           <div className="details">
-            Check out their conference slides <span className="slides">{developer.title}</span>
+            Check out their conference slides: <span className="slides">{developer.title}</span>
           </div>
         </a>
       </h4>
