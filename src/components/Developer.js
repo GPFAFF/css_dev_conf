@@ -8,14 +8,14 @@ class Developer extends Component {
 
   static propTypes = {
     params: PropTypes.object,
-    developer: PropTypes.object
+    developer: PropTypes.arrayOf(PropTypes.object)
 
   }
 
   constructor() {
     super()
     this.state = {
-      developer: {},
+      developer: [],
       loading: false
     }
   }
@@ -62,11 +62,17 @@ class Developer extends Component {
   }
 
   renderTalks = (developer) => {
-    console.log(this.props);
+    const talkingPoints = developer.info;
+
+    // talkingPoints.forEach(item => {
+    //   console.log(item);
+    // })
+    //const TalkingPoints = developer.info.map(value => console.log(value));
     // const talkingPoints = developer.info;
     // return (
     //   talkingPoints.forEach(value => <p className="talking-point">{value}</p>)
     // )
+
 
 
     //console.log(Object.entries(devTalks));
