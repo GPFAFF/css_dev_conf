@@ -18,19 +18,23 @@ class Developer extends Component {
       loading: false
     }
   }
+  componentWillMount() {
+    console.log("DEVELOPER WILL MOUNT 🎧🎧🎧🎧🎧🎧");
+    this.renderPoints(this.state.developer);
+  }
 
   componentDidMount() {
-    console.log("SINGLE DID MOUNT 💩");
+    console.log("DEVELOPER DID MOUNT 💩");
     this.renderPoints(this.state.developer);
     this.loadTalks(this.props.match.params.developer_name);
   }
 
-  loadTalks = (developer_name) => {
+  loadTalks = async (developer_name) => {
     console.log(`Loading developer ${developer_name}`)
 
     this.setState({ loading: true });
 
-    fetch(`https://raw.githubusercontent.com/GPFAFF/css_dev_conf/master/data/${developer_name}.json`)
+    await fetch(`https://raw.githubusercontent.com/GPFAFF/css_dev_conf/master/data/${developer_name}.json`)
         .then(data => data.json())
         .then(res => {
           this.setState({ developer: res.data, loading: false });
@@ -64,7 +68,13 @@ class Developer extends Component {
   renderPoints = (developer) => {
     if (!developer.info) return
     return (
-      developer.info.map((item, id) => <p key={id} className="points">{item.points}</p>))
+      developer.info.map((item, id) =>
+      <div>
+        <h4 key={id} className="headline">{item.headline}</h4>
+        <p key={`${id}+1`} className="points">{item.points.topic}</p>
+      </div>
+      )
+    )
   }
 
   render() {
