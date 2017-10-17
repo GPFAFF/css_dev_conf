@@ -6,6 +6,7 @@ body {
   color: white;
   text-shadow: 2px 2px 2px black;
   text-align: center;
+  line-height: 1.5;
 }
 
 h1,
@@ -111,7 +112,6 @@ a {
 }
 
 .points {
-  line-height: 1.5;
   padding: 20px 0;
 }
 
