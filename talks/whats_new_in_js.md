@@ -30,7 +30,7 @@
 
 1. mark function as async
   ```js
-    asycn function go() {
+    async function go() {
       await sleep(1000);
       const respone = await sleep(750);
       console.log(response);

@@ -50,8 +50,8 @@ a {
   border: 0;
   height: auto;
   width: auto;
-  background-color: #f4c70a;
-  font-weight: bold;
+  background-color: #e0b606;
+  font-weight: 500;
   font-size: 18px;
   text-transform: uppercase;
   transform: scale(1);
@@ -60,7 +60,7 @@ a {
 }
 
 .back:hover {
-  background-color: #e0b606;
+  background-color: #f4c70a;
   transform: scale(1.1);
   transition: background .1s ease-in, transform .1s ease-in-out;
   cursor: pointer;
