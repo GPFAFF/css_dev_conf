@@ -8,20 +8,20 @@ class Developer extends Component {
 
   static propTypes = {
     params: PropTypes.object,
-    developer: PropTypes.arrayOf(PropTypes.object)
-
+    developer: PropTypes.object
   }
 
   constructor() {
     super()
     this.state = {
-      developer: [],
+      developer: {},
       loading: false
     }
   }
 
   componentDidMount() {
     console.log("SINGLE DID MOUNT 💩");
+    this.renderPoints(this.state.developer);
     this.loadTalks(this.props.match.params.developer_name);
   }
 
@@ -61,30 +61,10 @@ class Developer extends Component {
     );
   }
 
-  renderTalks = (developer) => {
-    const talkingPoints = developer.info;
-
-    // talkingPoints.forEach(item => {
-    //   console.log(item);
-    // })
-    //const TalkingPoints = developer.info.map(value => console.log(value));
-    // const talkingPoints = developer.info;
-    // return (
-    //   talkingPoints.forEach(value => <p className="talking-point">{value}</p>)
-    // )
-
-
-
-    //console.log(Object.entries(devTalks));
-    // let value;
-
-    // const talkingPoints = new Set(developer.info);
-    // for (let points of talkingPoints) {
-    //   value = points;
-    // }
-    // return (
-    //   <p className="talking_point">{value}</p>
-    // );
+  renderPoints = (developer) => {
+      if (!developer.info) return
+      return (
+        developer.info.map((item, id) => <p key={id} className="points">{item.points}</p>))
   }
 
   render() {
@@ -108,10 +88,12 @@ class Developer extends Component {
               Follow this awesome developer! <span className="twitter">{developer.nameDisplay}</span>
             </a>
           </h3>
-          <h4>
-            Conference Talk
-            {this.renderTalks(developer)}
-          </h4>
+          <div className="learning">
+            <h3>
+              Conference Talk
+            </h3>
+              {this.renderPoints(developer)}
+          </div>
         </div>
       </div>
     )
