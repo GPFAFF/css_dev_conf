@@ -8,7 +8,7 @@ class Developer extends Component {
 
   static propTypes = {
     params: PropTypes.object,
-    developer: PropTypes.object
+    developer: PropTypes.array
   }
 
   constructor() {
@@ -66,7 +66,6 @@ class Developer extends Component {
   }
 
   renderPoints = (developer) => {
-    console.log(developer.info)
     if (!developer.info) return
     return (
       developer.info.map((item, id) =>
