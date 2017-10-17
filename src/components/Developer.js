@@ -66,12 +66,14 @@ class Developer extends Component {
   }
 
   renderPoints = (developer) => {
+    console.log(developer.info)
     if (!developer.info) return
     return (
       developer.info.map((item, id) =>
-      <div>
-        <h4 key={id} className="headline">{item.headline}</h4>
-        <p key={`${id}+1`} className="points">{item.points.topic}</p>
+      <div key={id}>
+        <h4 className="headline">{item.headline}</h4>
+        {item.points.map((points, id) =>
+          <p key={id} className="points">{points.topic}</p>)}
       </div>
       )
     )
