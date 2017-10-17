@@ -14,7 +14,7 @@ class Developer extends Component {
   constructor() {
     super()
     this.state = {
-      developer: {},
+      developer: [],
       loading: false
     }
   }
