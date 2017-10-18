@@ -56,14 +56,14 @@ a {
   font-size: 18px;
   text-transform: uppercase;
   transform: scale(1);
-  transition: background .1s ease-in, transform .1s ease-in-out;
+  transition: background .2s ease-in, transform .2s ease-in-out;
   margin-bottom: 50px;
 }
 
 .back:hover {
   background-color: #f4c70a;
   transform: scale(1.1);
-  transition: background .1s ease-in, transform .1s ease-in-out;
+  transition: background .2s ease-in, transform .2s ease-in-out;
   cursor: pointer;
 }
 
