@@ -69,7 +69,7 @@ class Developer extends Component {
     if (!developer.info) return
     return (
       developer.info.map((item, id) =>
-      <div key={id}>
+      <div className="summary" key={id}>
         <h4 className="headline">{item.headline}</h4>
         {item.points.map((points, id) =>
           <p key={id}
