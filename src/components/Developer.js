@@ -102,7 +102,7 @@ class Developer extends Component {
           </h3>
           <div className="learning">
             <h3>
-              Conference Talk
+              Talk Summary
             </h3>
               {this.renderPoints(developer)}
           </div>
