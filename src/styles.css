@@ -125,20 +125,6 @@ a {
   font-size: 36px;
 }
 
-.code {
-    background: #222;
-    padding: 60px 50px;
-    border-radius: 12px;
-    margin: 15px;
-}
-
-.inline-code {
-  background: #222;
-  padding: 10px;
-  border-radius: 12px;
-  margin: 5px;
-}
-
 @keyframes bounce {
   from {
     transform: translateY(0);

@@ -20,16 +20,13 @@
               "topic": "Beauty of promises is that you can avoid call back hell."
             },
             {
-              "topic": "However <span class='inline-code'>.then()</span> is still kinda callback-y."
+              "topic": "However .then() is still kinda callback-y."
             }
           ]
         },
         {
           "headline": "Enter async + await",
           "points": [
-            {
-              "topic": "Current promise structure.<br><span class='code'> moveTo(50, 50)<br>.then(() => moveTo(20, 20))<br>.then(() => moveTo(20, 20))<br>.then(() => moveTo(20, 20))</span>"
-            },
             {
               "topic": "JavaScript waits for no one. It's like this kid that's like 'I want some data' but then goes off and does something else before the data is ready. - Wes Bos"
             },
