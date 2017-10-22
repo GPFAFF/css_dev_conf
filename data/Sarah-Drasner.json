@@ -48,10 +48,10 @@
               "topic": "You can use several techniques in Vue.  <Transition> tag, Watchers/Reactivity, SVG, coordinating state with Vuex/ lifecycle methods and Animations with custom directives."
             },
             {
-              "topic": "Why would you use Vue for Aniamtions? Well it's lean, semantic,declarative, legible, easy to maintain and reactive"
+              "topic": "Why would you use Vue for Aniamtions? Well it's lean, semantic,declarative, legible, easy to maintain and reactive."
             },
             {
-              "topic": "Keep in mind the principle FLIP - First, Last, Invert, Play"
+              "topic": "Keep in mind the principle FLIP - First, Last, Invert, Play."
             },
             {
               "topic": "What is a V-Model? It creates a relationship between the data in the instance/component and a form input, so you can dynamically update values."
@@ -72,9 +72,6 @@
             },
             {
               "topic": "Vue uses getters/setters to make it reactive."
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
             }
           ]
         },

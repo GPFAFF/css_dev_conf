@@ -31,13 +31,13 @@
               "topic": "JavaScript waits for no one. It's like this kid that's like 'I want some data' but then goes off and does something else before the data is ready. - Wes Bos"
             },
             {
-              "topic": "JavaScript is almost entirely async and non blocking"
+              "topic": "JavaScript is almost entirely async and non blocking."
             },
             {
-              "topic": "Code your function with async.  Code the async function you're waiting for that returns an asynchronous repsonse like a Promise with await"
+              "topic": "Code your function with async.  Code the async function you're waiting for that returns an asynchronous repsonse like a Promise with await."
             },
             {
-              "topic": "When an async function is called, it returns a Promise. When the async function returns a value, the Promise will be resolved with the returned value.  When the async function throws an exception or some value, the Promise will be rejected with the thrown value.  Uses analogy of making breakfast.  Do you need to make your coffee first before starting breakfast.  No you can do them"
+              "topic": "When an async function is called, it returns a Promise. When the async function returns a value, the Promise will be resolved with the returned value.  When the async function throws an exception or some value, the Promise will be rejected with the thrown value.  Uses analogy of making breakfast.  Do you need to make your coffee first before starting breakfast.  No you can do them."
             },
             {
               "topic": "An async function can contain an await expression, that pauses the execution of the async function and waits for the passed Promise's resolution, and then resumes the async function's execution and returns the resolved value."
@@ -57,10 +57,10 @@
               "topic": "How do you know when an element is on screen?"
             },
             {
-              "topic": "Comparable to scrollTop,  doesn't take a scroll event listener"
+              "topic": "Comparable to scrollTop, doesn't take a scroll event listener."
             },
             {
-              "topic": "With Intersection Observer you can be alerted when an element is fully or partially scrolled into or out of view. Animate elements on scroll. Lazy load images. Sticky headers"
+              "topic": "With Intersection Observer you can be alerted when an element is fully or partially scrolled into or out of view. Animate elements on scroll. Lazy load images. Sticky headers."
             }
           ]
         },
@@ -74,7 +74,7 @@
               "topic": "Your browser does not charge your card, only creates token to pass to your service."
             },
             {
-              "topic": "Is it secure?  Yes, you don't handle the CC numbers you just pass the token."
+              "topic": "Is it secure? Well... it's definitely not worse than how we currently pay.  And yes, you don't handle the CC numbers you just pass the token."
             }
           ]
         }

@@ -11,16 +11,16 @@
           "headline": "Why would you want to build your own CSS pipeline?",
           "points": [
             {
-              "topic": "Your brand !== Bootstrap"
+              "topic": "Your brand !== Bootstrap."
             },
             {
-              "topic": "Bootstrap served a purpose but not all frameworks are created equally."
+              "topic": "Bootstrap serves a purpose but not all frameworks are created equally."
             },
             {
-              "topic": "You are better off rolling your own framework for performance purposes.  You can control what goes in/out and sometimes you don't always need a UI library."
+              "topic": "Sometimes you are better off rolling your own framework for performance purposes.  You can control what goes in/out and sometimes you don't always need a UI library."
             },
             {
-              "topic": "Easier mainted and can add enhancements faster.  You're the maintainer."
+              "topic": "Easier mainted and can add enhancements faster. You're the maintainer."
             }
           ]
         },
@@ -28,7 +28,8 @@
           "headline": "How to get started?",
           "points": [
             {
-              "topic": "Created a few small NPM scripts.  They have a single responsibility, easier to compose and share."            },
+              "topic": "Created a few small NPM scripts.  They have a single responsibility, easier to compose and share."
+            },
             {
               "topic": "Using PostCSS + cssnext."
             },
@@ -44,24 +45,24 @@
           "headline": "What are some next level ideas?",
           "points": [
             {
-              "topic": "Grey-scale"
+              "topic": "Grey-scale."
             },
             {
-              "topic": "Themable"
+              "topic": "Themable."
             },
             {
-              "topic": "Focus on Accessibility"
+              "topic": "Focus on Accessibility."
             },
             {
-              "topic": "CSS-in-JS"
+              "topic": "CSS-in-JS."
             },
             {
-              "topic": "Build uselessware"
+              "topic": "Build uselessware."
             }
           ]
         },
         {
-          "headline": "What next?",
+          "headline": "Check out his slides!",
           "points": [
             {
               "topic": "Highly recommend checking out Carlos' slides.  It has a great how-to on getting started."
