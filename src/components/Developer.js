@@ -46,7 +46,7 @@ class Developer extends Component {
     return (
       <div>
         <button className="back">
-          <Link to={`${baseUrl}/`}>Go Back!</Link>
+        <Link to={`${baseUrl}/`}>Go Back!</Link>
         </button>
       </div>
     )
