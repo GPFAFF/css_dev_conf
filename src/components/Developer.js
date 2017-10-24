@@ -58,7 +58,7 @@ class Developer extends Component {
       <h4 className="talk-slides">
         <a className="slides" target="_blank" rel="nopeneer noreferrer" href={developer.slides}>
           <div className="details">
-            Check out their conference slides: <span className="details_slides">{developer.title}</span><span className="click_me" role="img" aria-label="click me!">☝️</span>
+            Check out their conference slides: <span className="details_slides">{developer.title}<span className="click_me" role="img" aria-label="click me!">👈</span></span>
           </div>
         </a>
       </h4>
@@ -99,7 +99,7 @@ class Developer extends Component {
           {this.renderSlides(developer)}
           <h3 className="social">
             <a className="twitter" target="_blank" rel="nopeneer noreferrer" href={developer.twitter}>
-              Follow this awesome developer! <span className="twitter_handle">{developer.nameDisplay}</span><span className="click_me" role="img" aria-label="click me!">☝️</span>
+              Follow this awesome developer! <span className="twitter_handle">{developer.nameDisplay}<span className="click_me" role="img" aria-label="click me!">👈</span></span>
             </a>
           </h3>
           <div className="learning">

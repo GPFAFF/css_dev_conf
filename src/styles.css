@@ -25,9 +25,9 @@ a {
 }
 
 .click_me {
-  display: block;
-  padding-top: 10px;
-  animation: bounce_click .4s ease-in-out infinite;
+  display: inline-block;
+  padding: 5px 0 0 12px;
+  animation: point .5s ease-in-out infinite;
   animation-fill-mode: forwards;
 	animation-direction: alternate;
 }
@@ -145,12 +145,12 @@ a {
   margin: 0 auto;
 }
 
-@keyframes bounce_click {
+@keyframes point {
   from {
-    transform: translateY(0);
+    transform: translateX(0);
   }
   to {
-    transform: translateY(10px);
+    transform: translateX(10px);
   }
 }
 
