@@ -51,12 +51,15 @@ a {
   margin: 0 auto;
 }
 
-.talk-container {
+
+.talk-container{
   display: grid;
   grid-gap: 40px;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   padding: 20px;
+  width: auto;
 }
+
 
 .back {
   padding: 20px;
