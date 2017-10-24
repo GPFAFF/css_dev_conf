@@ -74,7 +74,7 @@ class Developer extends Component {
         {item.points.map((points, id) =>
           <p key={id}
             className="points"
-            dangerouslySetInnerHTML={{_html: points.topic}}/>
+            dangerouslySetInnerHTML={{__html: points.topic}}/>
           )}
       </div>
       )
