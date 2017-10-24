@@ -4,226 +4,63 @@
       "nameDisplay": "@snookca",
       "twitter": "https://twitter.com/snookca",
       "title": "Responsive Web Applications with Container Queries",
-      "slides": "https://www.slideshare.net/GregWhitworth2/css-dev-conf-braces-to-pixels",
+      "slides": "https://speakerdeck.com/snookca/responsive-web-applications-3",
       "picture": "https://pbs.twimg.com/profile_images/717669500917682176/_huneE84_400x400.jpg",
       "info": [
         {
-          "headline": "HERE IS BACON",
+          "headline": "Evolve the Design.",
           "points": [
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "A team of designers and developers for each platform."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Each horizontal block is considered in the context of the viewport."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "With that mentality each page can more easily be art directed."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "A SPA can have dozens of variations, a component based site has components responding differently to multiple contexts."
             }
           ]
         },
         {
-          "headline": "HERE IS BACON",
+          "headline": "Support Multiple Devices.",
           "points": [
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Device specific design and development."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "With media queries, you have to know the interplay of all objects in all scenarios."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "With container queries, you only have to know the interplay within a single object."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Unfortunately, no current spec for container queries."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Element queries are a new way of thinking about responsive web design where the responsive conditions apply to elements on the page instead of the width or height of the browser."
             }
           ]
         },
         {
-          "headline": "HERE IS BACON",
+          "headline": "@ELEMENT",
           "points": [
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Queries are aware of more than just the width and height of the browser, you can write responsive conditions for a number of different situations like how many characters of text or child elements an element contains."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Going Responsive meant a consistent feature set across all devices."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Single purpose classes resulted in less edge cases (and less code)."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "@element {selector} and {condition} [ and {condition} ]* { {css} }"
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            }
-          ]
-        },
-        {
-          "headline": "HERE IS BACON",
-          "points": [
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            }
-          ]
-        },
-        {
-          "headline": "HERE IS BACON",
-          "points": [
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            }
-          ]
-        },
-        {
-          "headline": "HERE IS BACON",
-          "points": [
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            }
-          ]
-        },
-        {
-          "headline": "HERE IS BACON",
-          "points": [
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            }
-          ]
-        },
-        {
-          "headline": "HERE IS BACON",
-          "points": [
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            }
-          ]
-        },
-        {
-          "headline": "HERE IS BACON",
-          "points": [
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            }
-          ]
-        },
-        {
-          "headline": "HERE IS BACON",
-          "points": [
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            }
-          ]
-        },
-        {
-          "headline": "HERE IS BACON",
-          "points": [
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Can use min/max characters, %'s, min/max lines, min/max scroll.  Really a ton of different options."
             }
           ]
         }
