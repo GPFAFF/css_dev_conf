@@ -8,7 +8,7 @@
       "picture": "https://pbs.twimg.com/profile_images/458803930713972736/dZevbKSe_400x400.png",
       "info": [
         {
-          "headline": "Big Concept 1 - Bundling.",
+          "headline": "Bundling.",
           "points": [
             {
               "topic": "Grabs multiple module.js and transforms them to bundle."

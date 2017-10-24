@@ -20,6 +20,18 @@ a {
   text-shadow: 2px 2px 2px black;
 }
 
+.details_slides, .twitter_handle {
+  display: block;
+}
+
+.click_me {
+  display: block;
+  padding-top: 10px;
+  animation: bounce_click .4s ease-in-out infinite;
+  animation-fill-mode: forwards;
+	animation-direction: alternate;
+}
+
 .loader h2 {
   text-transform: uppercase;
   padding-top: 50px;
@@ -128,6 +140,15 @@ a {
 .summary {
   width: 70%;
   margin: 0 auto;
+}
+
+@keyframes bounce_click {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(10px);
+  }
 }
 
 @keyframes bounce {
