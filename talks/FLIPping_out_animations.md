@@ -8,7 +8,7 @@
 
 ### Current Problems
 
-#### SUX - suprise user experience
+#### SUX - surprise user experience
 
 #### Jump Cuts - fast moving transitions
 

@@ -3,227 +3,70 @@
     {
       "nameDisplay": "@DavidKPiano",
       "twitter": "https://twitter.com/DavidKPiano",
-      "title": "FLIP Animations",
+      "title": "FLIPping Out about Animated Layouts",
       "slides": "http://slides.com/davidkhourshid/flip",
       "picture": "https://pbs.twimg.com/profile_images/619677584805208064/RwwbnNpi_400x400.jpg",
       "info": [
         {
-          "headline": "HERE IS BACON",
+          "headline": "Current Problems.",
           "points": [
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Transitions are about relationships."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Transitions should be quick, clear, concise."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "SUX - surprise user experience. Jump cuts - fast moving transitions."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Try and make applcation structure as flat as possible. Functional animnation is a sublte animation that has a clear purpose.  Lightens cognitive load, very important."
             }
           ]
         },
         {
-          "headline": "HERE IS BACON",
+          "headline": "Enter FLIP",
           "points": [
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "F - First get dimensions and position of what we want to animate using getBoundingClientRect."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "L - get the last size and position and size"
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "I - Transform the final node to the first position and size. This happens before the browser renders the final node at its resting position."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "P - Play, animate the final node to its resting position. Use your favorite animation library to do this!"
             }
           ]
         },
         {
-          "headline": "HERE IS BACON",
+          "headline": "Use Natural Motion Curves",
           "points": [
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Use the Natural Motion Curves"
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Experiment with multiple easings!"
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Ease-in: accelerate, Ease-out: decelerate"
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Linear: actually useful!"
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            }
-          ]
-        },
-        {
-          "headline": "HERE IS BACON",
-          "points": [
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "​Split translateX and translateY."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "​Give one parameter to container."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "​Give other parameter to inner container."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            }
-          ]
-        },
-        {
-          "headline": "HERE IS BACON",
-          "points": [
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            }
-          ]
-        },
-        {
-          "headline": "HERE IS BACON",
-          "points": [
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            }
-          ]
-        },
-        {
-          "headline": "HERE IS BACON",
-          "points": [
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            }
-          ]
-        },
-        {
-          "headline": "HERE IS BACON",
-          "points": [
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            }
-          ]
-        },
-        {
-          "headline": "HERE IS BACON",
-          "points": [
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            }
-          ]
-        },
-        {
-          "headline": "HERE IS BACON",
-          "points": [
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            }
-          ]
-        },
-        {
-          "headline": "HERE IS BACON",
-          "points": [
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "​Animate both simultaneously."
             }
           ]
         }

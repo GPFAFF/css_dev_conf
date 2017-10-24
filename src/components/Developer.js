@@ -19,12 +19,12 @@ class Developer extends Component {
     }
   }
   componentWillMount() {
-    console.log("DEVELOPER WILL MOUNT 🎧🎧🎧🎧🎧🎧");
+    console.log("DEVELOPER WILL MOUNT 🎧 🎧 🎧 🎧 🎧 🎧");
     this.renderPoints(this.state.developer);
   }
 
   componentDidMount() {
-    console.log("DEVELOPER DID MOUNT 💩");
+    console.log("DEVELOPER DID MOUNT 💩 💩 💩 💩 💩 💩");
     this.renderPoints(this.state.developer);
     this.loadTalks(this.props.match.params.developer_name);
   }
