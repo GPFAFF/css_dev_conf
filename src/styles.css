@@ -51,13 +51,26 @@ a {
   margin: 0 auto;
 }
 
+.talk-container {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-.talk-container{
-  display: grid;
-  grid-gap: 40px;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+.cards {
+  flex-wrap: wrap;
+  flex-basis: 400px;
+  flex-grow: 1;
+  min-width: 320px;
   padding: 20px;
-  width: auto;
+}
+
+@supports (display: grid) {
+  .talk-container{
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 20px;
+  }
 }
 
 
