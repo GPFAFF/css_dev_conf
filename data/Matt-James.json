@@ -8,102 +8,78 @@
       "picture": "https://pbs.twimg.com/profile_images/788250438109761537/cAqobz2t_400x400.jpg",
       "info": [
         {
-          "headline": "HERE IS BACON",
+          "headline": "Web Page size.",
           "points": [
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Average web page size over the last 7 years has tripled."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "700 kb in 2010 to 3376kb in 2017."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Average bytes per page. Images - 1810kb, HTML - 52kb, Fonts - 109kb, Scripts - 454kb, Stylesheets - 89kb, Video - 789kb, Other - 16kb"
             }
           ]
         },
         {
-          "headline": "HERE IS BACON",
+          "headline": "Images.",
           "points": [
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Squeeze em down!"
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "imageOptim, tinyPng, svgoUI, compressor.IO"
             }
           ]
         },
         {
-          "headline": "HERE IS BACON",
+          "headline": "Fonts",
           "points": [
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Embrace FOUT not FOIT!"
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "New rules coming to css,font-display: block, swap(invisible text), fallback(use browser fallback), optional"
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Can use this currently, because of progressive enhancement."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Font Face Observer a polyfill to load system fonts over webfonts and then when a class is applied after the promise is resolved it will load said webfonts."
             }
           ]
         },
         {
-          "headline": "HERE IS BACON",
+          "headline": "Scripts",
           "points": [
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "async and defer,  defer loads in the order you give it."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "link rel='preload' to css.  Not well supported but essentially operates like async.  Will swap in your css once loaded."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "gulp userref can write a task that can concatenate and minify in one fell swoop."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Time for Critical CSS  by isolating CSS for above the fold content and inlining it, we dramatcially improve perceived performance. Critical path CSS generator."
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Add gulp task for critical css.  then async the rest of the css. Polyfill done by filament group."
             }
           ]
         },
         {
-          "headline": "HERE IS BACON",
+          "headline": "Other ideas.",
           "points": [
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Use prefetch - <a href='https://css-tricks.com/prefetching-preloading-prebrowsing/'>prefetch</a>"
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Service Workers - <a href='https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker'>https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker</a>"
             },
             {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
-            },
-            {
-              "topic": "Bacon ipsum dolor amet sunt pariatur aliqua consectetur beef ribs meatloaf tempor culpa mollit velit salami prosciutto swine proident cow. Short"
+              "topic": "Add service worker - Can control static, dynamic and how to control page requests."
             }
           ]
         },

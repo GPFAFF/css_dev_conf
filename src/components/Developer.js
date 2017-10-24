@@ -73,7 +73,9 @@ class Developer extends Component {
         <h4 className="headline">{item.headline}</h4>
         {item.points.map((points, id) =>
           <p key={id}
-            className="points">{points.topic}</p>)}
+            className="points"
+            dangerouslySetInnerHTML={{_html: points.topic}}/>
+          )}
       </div>
       )
     )
