@@ -18,6 +18,7 @@ class Developer extends Component {
       loading: false
     }
   }
+
   componentWillMount() {
     console.log("DEVELOPER WILL MOUNT 🎧 🎧 🎧 🎧 🎧 🎧");
     this.renderPoints(this.state.developer);
