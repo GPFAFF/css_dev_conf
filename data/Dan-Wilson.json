@@ -23,7 +23,7 @@
               "topic": "Frenemies of Transforms - will change."
             },
             {
-              "topic": "Cue the browser in that the element will change however trying to maximize performance of actual moving elements. If everything is on own layer, you can have performance problems. Different support amongst browsers."
+              "topic": "Cue the browser - in that the element will change however trying to maximize performance of actual moving elements. If everything is on own layer, you can have performance problems. Different support amongst browsers."
             }
           ]
         },
@@ -34,7 +34,7 @@
               "topic": "Independent Properties - Soon browsers should have the ability to parse transition properties line by line. This will be without using Transform: rotate: (45deg) or scale: (.8)"
             },
             {
-              "topic": "Enter CSS Variables.  Use it like a Sass/Less var.  :root: --var goes here"
+              "topic": "Enter CSS Variables. Use it like a Sass/Less var.  :root: --var goes here"
             },
             {
               "topic": "Real power when you think of them as properties. They respect cascade and inheritance in CSS and are straight forward to change via JS."

@@ -8,7 +8,7 @@
       "picture": "https://pbs.twimg.com/profile_images/914142952422821889/7QYC-Wj-_400x400.jpg",
       "info": [
         {
-          "headline": " Variable fonts are on the horizon.",
+          "headline": "Variable fonts are on the horizon.",
           "points": [
             {
               "topic": "With a single CSS file you can change size, width, weight and even height."
@@ -31,7 +31,7 @@
               "topic": "This is most apparent in situations where speeds of website parsing is different."
             },
             {
-              "topic": "Open Sans was served by Google Fonts 26 billion times last week.  There are incentives to figure out a way to do this better, i.e. Performance."
+              "topic": "Open Sans was served by Google Fonts 26 billion times last week. There are incentives to figure out a way to do this better, i.e. Performance."
             }
           ]
         },

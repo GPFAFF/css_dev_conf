@@ -60,7 +60,7 @@
               "topic": "@element {selector} and {condition} [ and {condition} ]* { {css} }"
             },
             {
-              "topic": "Can use min/max characters, %'s, min/max lines, min/max scroll.  Really a ton of different options."
+              "topic": "Can use min/max characters, %'s, min/max lines, min/max scroll. Really a ton of different options."
             }
           ]
         }

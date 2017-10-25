@@ -13,7 +13,7 @@
               "topic": "Google's recommendation is to inline critical and async the rest."
             },
             {
-              "topic": "Audit can show you unused rules on the page.  Legacy audit will show more.  An option of coverage,command + shift + p. type coverage.  Also can access it from elipsis and in more tools.  You can see line to line what is and isn't being used."
+              "topic": "Audit can show you unused rules on the page. Legacy audit will show more. An option of coverage,command + shift + p. type coverage. Also can access it from elipsis and in more tools. You can see line to line what is and isn't being used."
             }
           ]
         },
@@ -21,7 +21,7 @@
           "headline": "Some tools to accomplish that.",
           "points": [
             {
-              "topic": " UnCSS, CSSByeBye to remove unused code."
+              "topic": "UnCSS, CSSByeBye to remove unused code."
             },
             {
               "topic": "Can leverage CLI tools to measure and test style performance."

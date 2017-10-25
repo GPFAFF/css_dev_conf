@@ -39,7 +39,7 @@
               "topic": "Embrace FOUT not FOIT!"
             },
             {
-              "topic": "New rules coming to css,font-display: block, swap(invisible text), fallback(use browser fallback), optional"
+              "topic": "New rules coming to css, font-display: block, swap(invisible text), fallback(use browser fallback), optional"
             },
             {
               "topic": "Can use this currently, because of progressive enhancement."
@@ -53,10 +53,10 @@
           "headline": "Scripts",
           "points": [
             {
-              "topic": "async and defer,  defer loads in the order you give it."
+              "topic": "async and defer, defer loads in the order you give it."
             },
             {
-              "topic": "link rel='preload' to css.  Not well supported but essentially operates like async.  Will swap in your css once loaded."
+              "topic": "link rel='preload' to css. Not well supported but essentially operates like async. Will swap in your css once loaded."
             },
             {
               "topic": "gulp userref can write a task that can concatenate and minify in one fell swoop."

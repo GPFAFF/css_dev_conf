@@ -51,7 +51,7 @@
               "topic": "They customize or enhance the build process in a variety of ways."
             },
             {
-              "topic": "Style loader can't cache css, one large HTTP request. Inline the css in the bundle.  We can use extractTextPlugin instead to remove the css."
+              "topic": "Style loader can't cache css, one large HTTP request. Inline the css in the bundle. We can use extractTextPlugin instead to remove the css."
             },
             {
               "topic": "Code splitting, html css and main chunk. Then lazy load as the user navigates to other chunks asynchrnously."

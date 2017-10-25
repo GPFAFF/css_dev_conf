@@ -34,7 +34,7 @@
               "topic": "We aren't wired to deal wit the fits and starts of HCI. Occiptial lobe only stores things for 100ms. Sarah's tip for animation is to start with an end state and then you know how to get the in-between."
             },
             {
-              "topic": "Continous activities are perecived as shorter than short choppy animations."
+              "topic": "Continuos activities are perecived as shorter than short choppy animations."
             }
           ]
         },
@@ -45,7 +45,7 @@
               "topic": "Enter Vue."
             },
             {
-              "topic": "You can use several techniques in Vue.  <Transition> tag, Watchers/Reactivity, SVG, coordinating state with Vuex/ lifecycle methods and Animations with custom directives."
+              "topic": "You can use several techniques in Vue. <Transition> tag, Watchers/Reactivity, SVG, coordinating state with Vuex/ lifecycle methods and Animations with custom directives."
             },
             {
               "topic": "Why would you use Vue for Aniamtions? Well it's lean, semantic,declarative, legible, easy to maintain and reactive."

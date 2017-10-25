@@ -28,7 +28,7 @@
           "headline": "How to get started?",
           "points": [
             {
-              "topic": "Created a few small NPM scripts.  They have a single responsibility, easier to compose and share."
+              "topic": "Created a few small NPM scripts. They have a single responsibility, easier to compose and share."
             },
             {
               "topic": "Using PostCSS + cssnext."
@@ -65,7 +65,7 @@
           "headline": "Check out his slides!",
           "points": [
             {
-              "topic": "Highly recommend checking out Carlos' slides.  It has a great how-to on getting started."
+              "topic": "Highly recommend checking out Carlos' slides. It has a great how-to on getting started."
             }
           ]
         }

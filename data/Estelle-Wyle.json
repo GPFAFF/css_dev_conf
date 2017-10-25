@@ -20,7 +20,7 @@
               "topic": "Goes over several SVG tactics."
             },
             {
-              "topic": "Covered @supports which is new to the CSS spec.  This is a browser fallback where you can add the latest code and if the browser 'supports' it it renders it.  Great for grid and flexbox."
+              "topic": "Covered @supports which is new to the CSS spec. This is a browser fallback where you can add the latest code and if the browser 'supports' it it renders it. Great for grid and flexbox."
             }
           ]
         },

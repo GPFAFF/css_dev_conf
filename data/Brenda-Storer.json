@@ -14,7 +14,7 @@
               "topic": "Grid support went from 0% to 70% in 7 months."
             },
             {
-              "topic": "Recently as of 10/16 - grid shipped fully in Edge.  So IE 11 is only the current modern browser that doesn't support CSS Grid."
+              "topic": "Recently as of 10/16 - grid shipped fully in Edge. So IE 11 is only the current modern browser that doesn't support CSS Grid."
             }
           ]
         },
@@ -31,13 +31,13 @@
               "topic": "Grid also allows you to customize start and end lines based on name and not number with grid-template-areas."
             },
             {
-              "topic": "Grid like flexbox cascades down.  Grid parents have a display: grid and its children have the same display."
+              "topic": "Grid like flexbox cascades down. Grid parents have a display: grid and its children have the same display."
             },
             {
-              "topic": "Add @supports for a graceful fallback.  Can use flexbox for IE11."
+              "topic": "Add @supports for a graceful fallback. Can use flexbox for IE11."
             },
             {
-              "topic": "Order matters!  Add your fallback first and grid code second."
+              "topic": "Order matters! Add your fallback first and grid code second."
             },
             {
               "topic": "Helpful Grid Link <a target='_blank' rel='noopener noreferrer' href='https://www.heartinternet.uk/blog/fearless-guide-using-css-grid-today/'>Grid</a>"

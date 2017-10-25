@@ -14,7 +14,7 @@
               "topic": "Promises are an IOU for something that returns something in the future (AJAX call, access to webcam, resize image)."
             },
             {
-              "topic": "Most new browser APIs are built on promises or observables.  (ex. RxJS, Fetch, axios, web animation api, payment requests)."
+              "topic": "Most new browser APIs are built on promises or observables. (ex. RxJS, Fetch, axios, web animation api, payment requests)."
             },
             {
               "topic": "Beauty of promises is that you can avoid call back hell."
@@ -34,10 +34,10 @@
               "topic": "JavaScript is almost entirely async and non blocking."
             },
             {
-              "topic": "Code your function with async.  Code the async function you're waiting for that returns an asynchronous repsonse like a Promise with await."
+              "topic": "Code your function with async. Code the async function you're waiting for that returns an asynchronous repsonse like a Promise with await."
             },
             {
-              "topic": "When an async function is called, it returns a Promise. When the async function returns a value, the Promise will be resolved with the returned value.  When the async function throws an exception or some value, the Promise will be rejected with the thrown value.  Uses analogy of making breakfast.  Do you need to make your coffee first before starting breakfast.  No you can do them."
+              "topic": "When an async function is called, it returns a Promise. When the async function returns a value, the Promise will be resolved with the returned value. When the async function throws an exception or some value, the Promise will be rejected with the thrown value. Uses analogy of making breakfast. Do you need to make your coffee first before starting breakfast.  No you can do them."
             },
             {
               "topic": "An async function can contain an await expression, that pauses the execution of the async function and waits for the passed Promise's resolution, and then resumes the async function's execution and returns the resolved value."
